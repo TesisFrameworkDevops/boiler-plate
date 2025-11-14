@@ -18,10 +18,10 @@ El objetivo es proporcionar un **marco estandarizado, simple y escalable**, que 
 
 Este repositorio incluye las piezas esenciales para implementar DevOps en cualquier proyecto software dentro de una PyME:
 
-.github/workflows/ → Integración Continua (CI) y Entrega Continua (CD)
-docker/ → Estandarización de entornos mediante contenedores
-scripts/ → Automatización de procesos clave
-terraform/ → Infraestructura como código (IaC)
+.github/workflows/ → Integración Continua (CI) y Entrega Continua (CD)  
+docker/ → Estandarización de entornos mediante contenedores  
+scripts/ → Automatización de procesos clave  
+terraform/ → Infraestructura como código (IaC)  
 Makefile → Comandos simplificados para el equipo
 
 Cada una de estas partes está optimizada para organizaciones pequeñas: **menos complejidad, más impacto**.
@@ -138,9 +138,9 @@ Esto reduce carga operativa y elimina tareas repetitivas.
 Permite ejecutar procesos de forma uniforme sin recordar comandos largos.
 
 Ejemplos:
-make build → Construir imagen
-make test → Ejecutar tests
-make deploy → Deploy completo
+make build → Construir imagen  
+make test → Ejecutar tests  
+make deploy → Deploy completo  
 make up → Levantar entorno local
 
 Ideal para equipos con diferentes niveles técnicos.
@@ -189,13 +189,3 @@ Este boilerplate busca:
 -   ofrecer herramientas modernas pero accesibles.
 
 ---
-
-# 📄 Estructura del Proyecto
-
-BOILER-PLATE/
-├── docker/ # Contenedores y entornos reproducibles
-├── scripts/ # Automatización del flujo DevOps
-├── terraform/ # Infraestructura como código
-├── .github/workflows/ # Pipelines CI/CD
-├── Makefile # Comandos simplificados
-└── .env.example # Configuraciones base
