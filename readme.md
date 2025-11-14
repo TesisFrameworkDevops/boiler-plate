@@ -1,4 +1,4 @@
-# 🔥 DevOps Boilerplate Framework
+# 🔥 DevOps Framework Boilerplate Repository
 
 ### _Framework DevOps adaptado al desarrollo y entrega de software en una PyME de consultoría en seguridad contra incendios_
 
